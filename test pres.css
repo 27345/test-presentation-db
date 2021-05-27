@@ -1,0 +1,303 @@
+
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+
+.atw {color: #133c8b;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.dbmoteurs.fr/sites/default/files/DJI_0329SD.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 70px; padding-bottom: 70px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.dbmoteurs.fr/sites/default/files/image00004.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 70px; padding-bottom: 70px; overflow: hidden; position: relative; width: 100%; background-image: url(P1000788.png); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-four {padding-top: 70px; padding-bottom: 70px; overflow: hidden; position: relative; width: 100%; background-image: url(D4-270\ -\ Volvo\ Penta\ -\ DB\ Moteurs\ -\ Moteur\ \(1\).jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-five {padding-top: 70px; padding-bottom: 70px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.dbmoteurs.fr/sites/default/files/remotorisation-barge-p%C3%A9niche-fluvial-transport-CCNR2-GM-volvo-penta-dbmoteurs-Kananga-dunkerque-nord%20%282%29.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-six {padding-top: 70px; padding-bottom: 70px; overflow: hidden; position: relative; width: 100%; background-image: url(DSC_0088.JPG); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three, #parallax-world-of-ugg .parallax-four {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+.btn2 {
+    position: relative;
+    z-index: 1;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top:1%;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    background-color: white;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    line-height: .95;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    align-content: center;
+    
+    
+    & .bg {
+      width: 101%;
+      height: 101%;
+      display: block!important;
+      z-index: -1;
+      opacity: ;
+      transition: all .3s ease-in-out;
+      background: linear-gradient(135deg, #a61322, #d33f34);
+    }
+    
+    &:hover {
+      color: #fff!important;
+      border: 1px solid transparent!important;
+      
+      & .bg {
+        opacity: 1;
+      }
+    }
+    
+  }
+
+  .btn3 {
+    position: relative;
+    z-index: 1;
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top:1%;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    background-color: white;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    line-height: .95;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    align-content: center;
+    
+    
+    & .bg {
+      width: 101%;
+      height: 101%;
+      display: block!important;
+      z-index: -1;
+      opacity: ;
+      transition: all .3s ease-in-out;
+      background: linear-gradient(135deg, #a61322, #d33f34);
+    }
+    
+    &:hover {
+      color: #fff!important;
+      border: 1px solid transparent!important;
+      
+      & .bg {
+        opacity: 1;
+      }
+    }
+    
+  }
+  <!--réalisations >
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+  *, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #f9f9f9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .main-title{
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+  }
+  
+  .container{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+  }
+  @media screen and (max-width: 640px){
+    .container{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 900px){
+    .container{
+      width: 33.33333%;
+    }
+  }
+  
+  .container .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  
+  .fadeIn-top{
+    top: 20%;
+  }
+  
+  .fadeIn-left{
+    left: 20%;
+  }
+  
+  .fadeIn-right{
+    left: 80%;
+  }
+
+  .content-title-igz{
+    color: white;
+  }
+
+  #titre-haut-de-page{
+    text-shadow: 0.1em 0.1em 0.2em black
+  }
+
+  .titres-parallax {
+    text-shadow: 0.1em 0.1em 0.2em black
+  }
+
+.text-develop{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  
+}
+   
